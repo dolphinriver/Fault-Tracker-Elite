@@ -28,8 +28,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
-        run: npm run docs:build
+      - name: Install & Build
+        run: |
+          npm ci
+          ls -la docs          # 看源码是否存在
+          npm run docs:build   # 强制重新编译
+          ls -la docs/.vitepress/dist || echo "❌ dist 不存在"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
