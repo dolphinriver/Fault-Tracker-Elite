@@ -22,12 +22,10 @@ features:
     details: 薄弱知识点热力图、模块正确率、用时趋势一键生成
 ---
 
-- ```
-  ## 快速导航
-  - [行测错题](/gongkao/xingce/) - 数量 | 判断 | 言语 | 资料 | 常识
-  - [申论错题](/gongkao/shenlun/) - 归纳 | 对策 | 公文 | 大作文
-  - [公基错题](/gongkao/gongji/)   - 政治 | 法律 | 经济 | 管理 | 公文
-  - [面试错题](/gongkao/mianshi/) - 结构化 | 无领导 | 情景模拟
-  ```
+## 快速导航
+- [行测错题](/gongkao/xingce/) - 数量 | 判断 | 言语 | 资料 | 常识
+- [申论错题](/gongkao/shenlun/) - 归纳 | 对策 | 公文 | 大作文
+- [公基错题](/gongkao/gongji/) - 政治 | 法律 | 经济 | 管理 | 公文
+- [面试错题](/gongkao/mianshi/) - 结构化 | 无领导 | 情景模拟
 
-> 所有 `.md` 仅保存在你的电脑，GitHub 只托管编译后的 HTML/JS，隐私无忧。
+&gt; 所有 `.md` 仅保存在你的电脑，GitHub 只托管编译后的 HTML/JS，隐私无忧。
