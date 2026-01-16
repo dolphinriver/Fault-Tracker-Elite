@@ -1,4 +1,4 @@
-﻿---
+---
 layout: home
 title: 公考错题本 - FaultTracker Elite
 hero:
@@ -15,7 +15,7 @@ features:
 ---
 
 ## 快速导航
-- [行测错题](/gongkao/xingce/) - 数量 | 判断 | 言语 | 资料 | 常识
-- [申论错题](/gongkao/shenlun/) - 归纳 | 对策 | 公文 | 大作文
-- [公基错题](/gongkao/gongji/)   - 政治 | 法律 | 经济 | 管理 | 公文
-- [面试错题](/gongkao/mianshi/) - 结构化 | 无领导 | 情景模拟
+- [行测错题](/gongkao/xingce) - 数量 | 判断 | 言语 | 资料 | 常识
+- [申论错题](/gongkao/shenlun) - 归纳 | 对策 | 公文 | 大作文
+- [公基错题](/gongkao/gongji)   - 政治 | 法律 | 经济 | 管理 | 公文
+- [面试错题](/gongkao/mianshi) - 结构化 | 无领导 | 情景模拟
