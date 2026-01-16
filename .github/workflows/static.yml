@@ -25,14 +25,11 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm ci
-
       - name: Install & Build
-       working-directory: .              # 关键：在仓库根目录执行
+        working-directory: .
         run: |
           npm ci
-          ls -la                           # 看根目录结构
+          ls -la
           ls -la docs || echo "⚠ docs 不存在"
           npm run docs:build
           ls -la docs/.vitepress/dist || echo "❌ dist 仍未生成"
