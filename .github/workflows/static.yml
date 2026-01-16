@@ -29,11 +29,13 @@ jobs:
         run: npm ci
 
       - name: Install & Build
+       working-directory: .              # 关键：在仓库根目录执行
         run: |
           npm ci
-          ls -la docs          # 看源码是否存在
-          npm run docs:build   # 强制重新编译
-          ls -la docs/.vitepress/dist || echo "❌ dist 不存在"
+          ls -la                           # 看根目录结构
+          ls -la docs || echo "⚠ docs 不存在"
+          npm run docs:build
+          ls -la docs/.vitepress/dist || echo "❌ dist 仍未生成"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
