@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   srcDir: 'docs',
   title: "FaultTracker Elite",
+  base: '/Fault-Tracker-Elite/',   // ← 关键一行
   description: "Track, analyze and conquer every mistake on your way to mastery.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
